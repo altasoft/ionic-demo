@@ -12,6 +12,7 @@ import { IonicStorageModule } from '@ionic/storage';
 import { ConferenceApp } from './app.component';
 
 import { AboutPage } from '../pages/about/about';
+import { InputsPage } from '../pages/inputs/inputs';
 import { PopoverPage } from '../pages/about-popover/about-popover';
 import { AccountPage } from '../pages/account/account';
 import { LoginPage } from '../pages/login/login';
@@ -34,6 +35,7 @@ import { UserData } from '../providers/user-data';
   declarations: [
     ConferenceApp,
     AboutPage,
+    InputsPage,
     AccountPage,
     LoginPage,
     MapPage,
@@ -74,6 +76,7 @@ import { UserData } from '../providers/user-data';
   entryComponents: [
     ConferenceApp,
     AboutPage,
+    InputsPage,
     AccountPage,
     LoginPage,
     MapPage,

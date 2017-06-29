@@ -1,0 +1,140 @@
+<ion-header>
+  <ion-navbar>
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>Inputs</ion-title>
+    <ion-buttons end>
+      <button ion-button icon-only (click)="presentPopover($event)">
+        <ion-icon name="more"></ion-icon>
+      </button>
+    </ion-buttons>
+  </ion-navbar>
+</ion-header>
+
+<ion-content>
+  <div class="about-header">
+    <img src="assets/img/logo.png" alt="ionic logo">
+  </div>
+  <div padding class="about-info">
+    <h4>Loan Registration</h4>
+
+    <ion-list>
+      <ion-item>
+        <ion-label color="primary" stacked>First Name</ion-label>
+        <ion-input type="email" placeholder="Malkhazi etc."></ion-input>
+      </ion-item>
+
+      <ion-item>
+        <ion-label color="primary" stacked>Last Name</ion-label>
+        <ion-input type="email" placeholder="Kunchuridze etc."></ion-input>
+      </ion-item>
+
+      <ion-item>
+        <ion-label color="primary" stacked>Reason</ion-label>
+        <ion-select placeholder="Select one of them">
+          <ion-option value="madison">სოფლის მეურნეობა</ion-option>
+          <ion-option value="austin">დისტრიბუცია</ion-option>
+          <ion-option value="seattle">მევენახეობა</ion-option>
+          <ion-option value="chicago">სხვა</ion-option>
+        </ion-select>
+      </ion-item>
+
+      <ion-item>
+        <ion-label color="primary" stacked>Loan amount</ion-label>
+        <ion-input type="text" placeholder="5000 etc."></ion-input>
+      </ion-item>
+    </ion-list>
+
+    <h4>Additional Info</h4>
+    <ion-list>
+      <ion-item>
+        <ion-label color="primary" stacked>Other1</ion-label>
+        <ion-input type="email" placeholder="For test"></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-label color="primary" stacked>Other2</ion-label>
+        <ion-input type="email" placeholder="For test"></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-label color="primary" stacked>Other3</ion-label>
+        <ion-input type="email" placeholder="For test"></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-label color="primary" stacked>Other4</ion-label>
+        <ion-input type="email" placeholder="For test"></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-label color="primary" stacked>Other5</ion-label>
+        <ion-input type="email" placeholder="For test"></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-label color="primary" stacked>Other1</ion-label>
+        <ion-input type="email" placeholder="For test"></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-label color="primary" stacked>Other2</ion-label>
+        <ion-input type="email" placeholder="For test"></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-label color="primary" stacked>Other3</ion-label>
+        <ion-input type="email" placeholder="For test"></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-label color="primary" stacked>Other4</ion-label>
+        <ion-input type="email" placeholder="For test"></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-label color="primary" stacked>Other5</ion-label>
+        <ion-input type="email" placeholder="For test"></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-label color="primary" stacked>Other1</ion-label>
+        <ion-input type="email" placeholder="For test"></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-label color="primary" stacked>Other2</ion-label>
+        <ion-input type="email" placeholder="For test"></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-label color="primary" stacked>Other3</ion-label>
+        <ion-input type="email" placeholder="For test"></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-label color="primary" stacked>Other4</ion-label>
+        <ion-input type="email" placeholder="For test"></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-label color="primary" stacked>Other5</ion-label>
+        <ion-input type="email" placeholder="For test"></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-label color="primary" stacked>Other1</ion-label>
+        <ion-input type="email" placeholder="For test"></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-label color="primary" stacked>Other2</ion-label>
+        <ion-input type="email" placeholder="For test"></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-label color="primary" stacked>Other3</ion-label>
+        <ion-input type="email" placeholder="For test"></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-label color="primary" stacked>Other4</ion-label>
+        <ion-input type="email" placeholder="For test"></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-label color="primary" stacked>Other5</ion-label>
+        <ion-input type="email" placeholder="For test"></ion-input>
+      </ion-item>
+    </ion-list>
+    <button ion-button full (click)="createLoan()">Create Loan</button>
+    <!--<p>
+      The Ionic Conference is a one-day conference featuring talks from the Ionic team. It is focused on Ionic applications being
+      built with Ionic 2. This includes migrating apps from Ionic 1 to Ionic 2, Angular concepts, Webpack, Sass, and many
+      other technologies used in Ionic 2. Tickets are completely sold out, and we’re expecting more than 1000 developers
+      – making this the largest Ionic conference ever!
+    </p>-->
+  </div>
+</ion-content>
